@@ -1,16 +1,19 @@
 {
 	"name": "sinus~",
 	"label": "Sinus~",
-	"controllers": [{
-		"name": "frequency",
-		"label": "Frequency",
-		"type": "float",
-		"value": 440
-	}, {
-		"name": "level",
-		"label": "Level",
-		"type": "float",
-		"range": [0, 1],
-		"value": 1
-	}]
+	"controllers": {
+		"frequency": {
+			"label": "Frequency",
+			"type": "int"
+		},
+		"level": {
+			"label": "Level",
+			"type": "int",
+			"range": [0, 100]
+		}
+	},
+	"payload": {
+		"frequency": 440,
+		"level": 33
+	}
 }

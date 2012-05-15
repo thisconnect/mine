@@ -2,9 +2,11 @@
 	"name": "memory",
 	"label": "Memory",
 	"controllers": [{
-		"name": "data",
 		"label": "Data",
 		"type": "intrange",
 		"value": false
-	}]
+	}],
+	"payload": {
+		0: [0, 0, 0, 0]
+	}
 }

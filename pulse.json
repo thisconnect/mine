@@ -1,16 +1,21 @@
 {
 	"name": "pulse",
 	"label": "Pulse",
-	"controllers": [{
-		"name": "run",
-		"label": "Run",
-		"type": "boolean",
-		"value": false
-	}, {
-		"name": "speed",
-		"label": "Speed (BPM)",
-		"type": "int",
-		"range": [40, 208],
-		"value": 124
-	}]
+	"controllers": {
+		"run": {
+			"label": "Run",
+			"type": "boolean",
+			"value": false
+		},
+		"speed": {
+			"label": "Speed (BPM)",
+			"type": "int",
+			"range": [40, 208],
+			"value": 124
+		}
+	},
+	"payload": {
+		"run": false,
+		"speed": 124
+	}
 }

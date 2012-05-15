@@ -1,23 +1,26 @@
 {
 	"name": "envelope~",
 	"label": "Envelope~",
-	"controllers": [{
-		"name": "attack",
-		"label": "Attack",
-		"type": "int",
-		"range": [1, 800],
-		"value": 12
-	}, {
-		"name": "decay",
-		"label": "Decay",
-		"type": "int",
-		"range": [1, 1200],
-		"value": 200
-	}, {
-		"name": "level",
-		"label": "Level",
-		"type": "float",
-		"range": [0, 1],
-		"value": 1
-	}]
+	"controllers": {
+		"attack": {
+			"label": "Attack",
+			"type": "int",
+			"range": [1, 800]
+		},
+		"decay": {
+			"label": "Decay",
+			"type": "int",
+			"range": [1, 1200]
+		},
+		"level": {
+			"label": "Level",
+			"type": "int",
+			"range": [0, 100]
+		}
+	},
+	"payload": {
+		"attack": 12,
+		"decay": 200,
+		"level": 64
+	}
 }
