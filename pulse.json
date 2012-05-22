@@ -4,7 +4,7 @@
 	"controllers": {
 		"run": {
 			"label": "Run",
-			"type": "boolean"
+			"type": "bool"
 		},
 		"speed": {
 			"label": "Speed (BPM)",
