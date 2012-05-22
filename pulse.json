@@ -4,14 +4,12 @@
 	"controllers": {
 		"run": {
 			"label": "Run",
-			"type": "boolean",
-			"value": false
+			"type": "boolean"
 		},
 		"speed": {
 			"label": "Speed (BPM)",
 			"type": "int",
-			"range": [40, 208],
-			"value": 124
+			"range": [40, 208]
 		}
 	},
 	"payload": {

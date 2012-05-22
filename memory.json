@@ -3,8 +3,7 @@
 	"label": "Memory",
 	"controllers": [{
 		"label": "Data",
-		"type": "intrange",
-		"value": false
+		"type": "intrange"
 	}],
 	"payload": {
 		0: [0, 0, 0, 0]
